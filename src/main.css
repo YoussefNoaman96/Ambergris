@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+.btn {
+  @apply bg-yellow-500 hover:bg-yellow-300 transition-all duration-300 text-black font-bold px-8 ;
+}
+
+.overlay {
+    background-image:linear-gradient(rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0.1)), url('/public/images/overlay.jpg');
+}

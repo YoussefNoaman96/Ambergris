@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ambergris | Luxury Perfume Store</title>
+  <script type="module" crossorigin src="/assets/index-bnoSvkvS.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-HSeB_L8x.css">
+</head>
+
+<body class="bg-slate-100 dark:bg-zinc-800">
+<nav class="bg-zinc-800 py-3 px-8 shadow-lg top-0 sticky z-50 dark:bg-zinc-200">
+  <div class="container flex justify-between mx-auto items-center">
+    <div class="">
+      <a href="">
+        <img src="/assets/logo-white%20(2)-CjrLKD7i.png" class="h-10 w-auto block dark:hidden" alt="">
+        <img src="/assets/logo-black%20(1)-qiaMyBG5.png" class="h-10 w-auto hidden dark:block" alt="">
+      </a>
+    </div>
+    <div class="hidden md:flex space-x-6 text-gray-300 font-bold dark:text-gray-800">
+      <a href="#home" class="relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">Home</a>
+      <a href="#about" class="relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">About</a>
+      <a href="#Fragrances" class="relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">Fragrances</a>
+      <a href="#CustomerReviews" class="relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">Customer Reviews</a>
+      <a href="#contact" class="relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">Contact</a> 
+      <button class="theme-btn cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hidden dark:block size-6">
+          <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="block dark:hidden size-5">
+          <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+        </svg>
+      </button>
+    </div>
+    <div class="md:hidden text-gray-300 font-bold dark:text-gray-800">
+      <button id="menu-btn" class="cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+          <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="text-center text-gray-300 font-bold hidden md:hidden dark:text-gray-800">
+    <a class="block p-2 hover:text-white dark:hover:text-zinc-500" href="#home">Home</a>
+    <a class="block p-2 hover:text-white dark:hover:text-zinc-500" href="#about">About</a>
+    <a class="block p-2 hover:text-white dark:hover:text-zinc-500" href="#Fragrances">Fragrances</a>
+    <a class="block p-2 hover:text-white dark:hover:text-zinc-500" href="#CustomerReviews">Customer Reviews</a>
+    <a class="block p-2 hover:text-white dark:hover:text-zinc-500" href="#contact">Contact</a> 
+    <button class="theme-btn cursor-pointer p-2 hover:text-white dark:hover:text-zinc-500">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+        <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<!--*          Hero Section              -->
+<section id="home" class="scroll-mt-16 overlay min-h-dvh flex items-center bg-cover bg-center bg-fixed bg-no-repeat">
+  <div class="container mx-auto px-8">
+    <div class="max-w-2xl">
+      <h1 class="text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
+        A Scent That<span class="block text-amber-400 italic font-light">Defines You.</span></h1>
+
+      <p class="text-gray-300 text-lg max-w-lg leading-8 mb-10">
+        Discover our exclusive collection of luxury perfumes, crafted from the 
+        finest ingredients to leave a lasting impression wherever you go.</p>
+        
+      <div class="flex flex-wrap gap-4">
+        <a href="#Fragrances" class="btn py-3 px-8">Discover Fragrances</a>
+        <a href="#Fragrances" class="py-3 px-8 border border-amber-400 text-amber-400
+          hover:bg-amber-400 hover:text-zinc-900
+          transition-all duration-300 font-semibold text-sm tracking-wide">View Collection</a>
+      </div>
+
+      <div class="flex gap-10 mt-14 pt-8 border-t border-white/10">
+        <div>
+          <p class="text-3xl font-bold text-white">200<span class="text-amber-400">+</span></p>
+          <p class="text-xs text-gray-400 tracking-widest uppercase mt-1">Fragrances</p>
+        </div>
+        <div>
+          <p class="text-3xl font-bold text-white">15<span class="text-amber-400">K</span></p>
+          <p class="text-xs text-gray-400 tracking-widest uppercase mt-1">Happy Clients</p>
+        </div>
+        <div>
+          <p class="text-3xl font-bold text-white">8<span class="text-amber-400">+</span></p>
+          <p class="text-xs text-gray-400 tracking-widest uppercase mt-1">Years of Craft</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--*              About                     -->
+<section id="about" class="container mx-auto px-8 mt-20 scroll-mt-24">
+  <div class="flex flex-col md:flex-row items-center gap-8">
+    <div class="md:w-2/3 overflow-hidden rounded-xl shadow-xl">
+      <img src="/assets/perfume-1-C6cnV7ZP.jpg" alt="" class="w-full">
+    </div>
+    <div class="md:w-1/2 md:ml-4 text-slate-700 dark:text-slate-200">
+      <p class="mb-4 text-amber-500 uppercase tracking-widest text-sm font-semibold">What we do?</p>
+      <h2 class="text-4xl font-bold mb-4">About Our Brand</h2>
+      <p class="mb-4 leading-8">At Ambergris, every bottle tells a story. We blend rare oils and precious essences sourced from around the world, creating fragrances that capture elegance, confidence, and timeless luxury.</p>
+      <p class="mb-4 leading-8">Our master perfumers spend years perfecting each note, ensuring that every scent we create is unique, refined, and unforgettable — a true signature for those who appreciate the art of fragrance.</p>
+    </div>
+  </div>
+</section>
+
+<!--*             Fragrances                       -->
+<section id="Fragrances" class="container mx-auto px-8 mt-8 py-8 scroll-mt-24">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-slate-800 dark:text-white">Featured Fragrances</h2>
+    <div class="w-20 h-1 bg-amber-500 rounded-full mx-auto mt-4"></div>
+  </div>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 dark:text-gray-200">
+    <div class="relative shadow-xl dark:shadow-md dark:shadow-gray-500 dark:bg-zinc-900 rounded-xl overflow-hidden">
+      <img class="w-full h-80 object-cover hover:scale-105 transition-all duration-300 ease-out" src="/assets/perfume-9-B5SrV-fK.jpg" alt="">
+      <span class="absolute top-4 left-4 bg-amber-500 text-black text-xs font-bold px-3 py-1 rounded-full">Best Seller</span>
+      <div class="p-7">
+        <h2 class="text-lg font-bold mb-2">Noir Élégance</h2>
+        <p class="mb-4">A bold, woody fragrance with notes of oud, amber, and dark vanilla.</p>
+        <del class="text-sm text-slate-400 mr-2">2200 EGP</del>
+        <span class="text-xl font-bold">1650 EGP</span>
+      </div>
+    </div>
+
+    <div class="shadow-xl dark:shadow-md dark:shadow-gray-500 dark:bg-zinc-900 rounded-xl overflow-hidden">
+      <img class="w-full h-80 object-cover hover:scale-105 transition-all duration-300 ease-out" src="/assets/Velvet%20Rose-B1ZLMPHl.jpg" alt="">
+      <div class="p-7">
+        <h2 class="text-lg font-bold mb-2">Velvet Rose</h2>
+        <p class="mb-4">A romantic floral blend of Bulgarian rose, peony, and soft musk.</p>
+        <del class="text-sm text-slate-400 mr-2">1950 EGP</del>
+        <span class="text-xl font-bold">1450 EGP</span>
+      </div>
+    </div>
+
+    <div class="relative shadow-xl dark:shadow-md dark:shadow-gray-500 dark:bg-zinc-900 rounded-xl overflow-hidden">
+      <img class="w-full h-80 object-cover hover:scale-105 transition-all duration-300 ease-out" src="/assets/perfume-3-_SfPZG50.jpg" alt="">
+      <span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">Limited Edition</span>
+      <div class="p-7">
+        <h2 class="text-lg font-bold mb-2">Golden Amber</h2>
+        <p class="mb-4">Warm and inviting, featuring amber, sandalwood, and saffron.</p>
+        <del class="text-sm text-slate-400 mr-2">2100 EGP</del>
+        <span class="text-xl font-bold">1600 EGP</span>
+      </div>
+    </div>
+
+    <div class="shadow-xl dark:shadow-md dark:shadow-gray-500 dark:bg-zinc-900 rounded-xl overflow-hidden">
+      <img class="w-full h-80 object-cover hover:scale-105 transition-all duration-300 ease-out" src="/assets/Citrus%20Mirage-CFVTquTo.jpg" alt="">
+      <div class="p-7">
+        <h2 class="text-lg font-bold mb-2">Citrus Mirage</h2>
+        <p class="mb-4">A fresh, energizing fragrance with bergamot, neroli, and white musk.</p>
+        <del class="text-sm text-slate-400 mr-2">1800 EGP</del>
+        <span class="text-xl font-bold">1350 EGP</span>
+      </div>
+    </div>
+
+    <div class="shadow-xl dark:shadow-md dark:shadow-gray-500 dark:bg-zinc-900 rounded-xl overflow-hidden">
+      <img class="w-full h-80 object-cover hover:scale-105 transition-all duration-300 ease-out" src="/assets/Mystic%20Oud-CXnHwDI8.jpg" alt="">
+      <div class="p-7">
+        <h2 class="text-lg font-bold mb-2">Mystic Oud</h2>
+        <p class="mb-4">An intense, mysterious scent of rare oud wood, spices, and leather.</p>
+        <del class="text-sm text-slate-400 mr-2">2500 EGP</del>
+        <span class="text-xl font-bold">1900 EGP</span>
+      </div>
+    </div>
+
+    <div class="shadow-xl dark:shadow-md dark:shadow-gray-500 dark:bg-zinc-900 rounded-xl overflow-hidden">
+      <img class="w-full h-80 object-cover hover:scale-105 transition-all duration-300 ease-out" src="/assets/Pure%20Jasmine%20perfume-0zuRYPkV.jpg" alt="">
+      <div class="p-7">
+        <h2 class="text-lg font-bold mb-2">Pure Jasmine</h2>
+        <p class="mb-4">A delicate, feminine bouquet of jasmine, vanilla, and white tea.</p>
+        <del class="text-sm text-slate-400 mr-2">2000 EGP</del>
+        <span class="text-xl font-bold">1500 EGP</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--*              Why Choose Us               -->
+<section class="container mx-auto px-8 py-20">
+  <div class="text-center mb-12">
+    <h2 class="text-4xl font-bold text-slate-800 dark:text-white">Why Choose Ambergris</h2>
+    <div class="w-20 h-1 bg-amber-500 rounded-full mx-auto mt-4"></div>
+    <p class="mt-5 text-slate-600 dark:text-gray-300 max-w-2xl mx-auto">We are committed to delivering authentic luxury fragrances withexceptional quality and outstanding customer experience.</p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="bg-white hover:shadow-amber-500/10 dark:bg-zinc-700 rounded-xl shadow-lg p-8 text-center hover:-translate-y-2 transition duration-300">
+      <div class="flex justify-center mb-5">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-amber-500 size-6">
+          <path fill-rule="evenodd" d="M12.516 2.17a.75.75 0 0 0-1.032 0 11.209 11.209 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08Zm3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      <h3 class="font-bold text-xl mb-3 dark:text-white">Authentic Perfumes</h3>
+      <p class="text-slate-600 dark:text-gray-300">100% genuine fragrances sourced from trusted luxury brands.</p>
+    </div>
+
+    <div class="bg-white hover:shadow-amber-500/10 dark:bg-zinc-700 rounded-xl shadow-lg p-8 text-center hover:-translate-y-2 transition duration-300">
+      <div class="flex justify-center mb-5">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-amber-500 size-6">
+          <path d="M3.375 4.5C2.339 4.5 1.5 5.34 1.5 6.375V13.5h12V6.375c0-1.036-.84-1.875-1.875-1.875h-8.25ZM13.5 15h-12v2.625c0 1.035.84 1.875 1.875 1.875h.375a3 3 0 1 1 6 0h3a.75.75 0 0 0 .75-.75V15Z" />
+          <path d="M8.25 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0ZM15.75 6.75a.75.75 0 0 0-.75.75v11.25c0 .087.015.17.042.248a3 3 0 0 1 5.958.464c.853-.175 1.522-.935 1.464-1.883a18.659 18.659 0 0 0-3.732-10.104 1.837 1.837 0 0 0-1.47-.725H15.75Z" />
+          <path d="M19.5 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
+        </svg>
+      </div>
+      <h3 class="font-bold text-xl mb-3 dark:text-white">Fast Delivery</h3>
+      <p class="text-slate-600 dark:text-gray-300">Safe and fast shipping to your doorstep across the country.</p>
+    </div>
+
+    <div class="bg-white hover:shadow-amber-500/10 dark:bg-zinc-700 rounded-xl shadow-lg p-8 text-center hover:-translate-y-2 transition duration-300">
+      <div class="flex justify-center mb-5">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-amber-500 size-6">
+          <path d="M11.25 3v4.046a3 3 0 0 0-4.277 4.204H1.5v-6A2.25 2.25 0 0 1 3.75 3h7.5ZM12.75 3v4.011a3 3 0 0 1 4.239 4.239H22.5v-6A2.25 2.25 0 0 0 20.25 3h-7.5ZM22.5 12.75h-8.983a4.125 4.125 0 0 0 4.108 3.75.75.75 0 0 1 0 1.5 5.623 5.623 0 0 1-4.875-2.817V21h7.5a2.25 2.25 0 0 0 2.25-2.25v-6ZM11.25 21v-5.817A5.623 5.623 0 0 1 6.375 18a.75.75 0 0 1 0-1.5 4.126 4.126 0 0 0 4.108-3.75H1.5v6A2.25 2.25 0 0 0 3.75 21h7.5Z" />
+          <path d="M11.085 10.354c.03.297.038.575.036.805a7.484 7.484 0 0 1-.805-.036c-.833-.084-1.677-.325-2.195-.843a1.5 1.5 0 0 1 2.122-2.12c.517.517.759 1.36.842 2.194ZM12.877 10.354c-.03.297-.038.575-.036.805.23.002.508-.006.805-.036.833-.084 1.677-.325 2.195-.843A1.5 1.5 0 0 0 13.72 8.16c-.518.518-.76 1.362-.843 2.194Z" />
+        </svg>
+      </div>
+      <h3 class="font-bold text-xl mb-3 dark:text-white">Premium Packaging</h3>
+      <p class="text-slate-600 dark:text-gray-300">Every order is beautifully packaged to create a luxury experience.</p>
+    </div>
+
+    <div class="bg-white hover:shadow-amber-500/10 dark:bg-zinc-700 rounded-xl shadow-lg p-8 text-center hover:-translate-y-2 transition duration-300">
+      <div class="flex justify-center mb-5">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-amber-500 size-6">
+          <path fill-rule="evenodd" d="M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6.75a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6.75a3 3 0 0 0-3-3v-3c0-2.9-2.35-5.25-5.25-5.25Zm3.75 8.25v-3a3.75 3.75 0 1 0-7.5 0v3h7.5Z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      <h3 class="font-bold text-xl mb-3 dark:text-white"> Secure Payment</h3>
+      <p class="text-slate-600 dark:text-gray-300">Shop confidently using secure and trusted payment methods.</p>
+    </div>
+  </div>
+</section>
+
+<!--*                 Newsletter              -->
+<section class="w-full bg-zinc-800 dark:bg-zinc-900 py-20 mt-15 scroll-mt-24">
+  <div class="container mx-auto px-8">
+    <div class="max-w-2xl mx-auto text-center">
+      <div class="flex justify-center mb-6">
+        <div class="w-16 h-16 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 24 24"
+               fill="currentColor"
+               class="w-8 h-8 text-amber-500">
+            <path d="M19.5 22.5a3 3 0 0 0 3-3v-8.174l-6.879 4.022 3.485 1.876a.75.75 0 1 1-.712 1.321l-5.683-3.06a1.5 1.5 0 0 0-1.422 0l-5.683 3.06a.75.75 0 0 1-.712-1.32l3.485-1.877L1.5 11.326V19.5a3 3 0 0 0 3 3h15Z" />
+            <path d="M1.5 9.589v-.745a3 3 0 0 1 1.578-2.642l7.5-4.038a3 3 0 0 1 2.844 0l7.5 4.038A3 3 0 0 1 22.5 8.844v.745l-8.426 4.926-.652-.351a3 3 0 0 0-2.844 0l-.652.351L1.5 9.589Z" />
+          </svg>
+        </div>
+      </div>
+      <h2 class="text-4xl font-bold text-white">Subscribe to our Newsletter</h2>
+      <p class="mt-4 text-gray-400 leading-7">
+        Be the first to know about new fragrance launches, exclusive offers,
+        and limited edition collections.
+      </p>
+      <form action="" class="flex mt-8 max-w-xl mx-auto">
+        <input type="email" placeholder="Enter Your email"
+          class="flex-1 min-w-0 bg-zinc-800 text-gray-200 placeholder-gray-500 text-sm px-4 h-11 border border-zinc-700 outline-none focus:border-amber-500 transition-colors duration-300">
+
+        <button
+          class="h-11 px-6 bg-amber-500 hover:bg-amber-400 text-zinc-900 text-sm font-bold transition-colors duration-300 shrink-0 cursor-pointer">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!--*              Customer Reviews               -->
+<section id="CustomerReviews" class="container mx-auto px-8 mt-20 scroll-mt-24">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold text-slate-800 dark:text-white">Customer Reviews</h2>
+    <div class="w-20 h-1 bg-amber-500 rounded-full mx-auto mt-4"></div>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800 dark:text-gray-200">
+    <div class="bg-white dark:bg-zinc-700 border-b-2 border-amber-500 rounded-lg shadow-md p-6 flex flex-col items-center">
+      <img src="/assets/human-1-Cd-mcPFg.jpg" class="rounded-full w-20 h-20 mb-4 object-cover" alt="">
+      <p class="text-center mb-4">"The Noir Élégance has become my signature scent. I get compliments everywhere I go — pure luxury in a bottle."</p>
+        <p class="font-semibold">- Ahmed Tarek</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-700 border-b-2 border-amber-500 rounded-lg shadow-md p-6 flex flex-col items-center">
+      <img src="/assets/human-2-BXHg2M7V.jpg" class="rounded-full w-20 h-20 mb-4 object-cover" alt="">
+      <p class="text-center mb-4">"The quality and longevity of these fragrances are unmatched. Ambergris has completely changed how I think about perfume."</p>
+        <p class="font-semibold">- Karim Hassan</p>
+    </div>
+    <div class="bg-white dark:bg-zinc-700 border-b-2 border-amber-500 rounded-lg shadow-md p-6 flex flex-col items-center">
+      <img src="/assets/human-3-DSOPWF_Z.jpg" class="rounded-full w-20 h-20 mb-4 object-cover" alt="">
+      <p class="text-center mb-4">"Velvet Rose is simply stunning — elegant, romantic, and long-lasting. It's now a permanent part of my collection."</p>
+        <p class="font-semibold">- Youssef Adel</p>
+    </div>
+  </div>
+</section>
+
+<!--*              Contact               -->
+<section id="contact" class="container mx-auto px-8 py-20 scroll-mt-24">
+    <div class="bg-white dark:bg-zinc-700 shadow-xl rounded-2xl p-8 md:p-10">
+        <div class="text-center mb-10">
+            <h2 class="text-4xl font-bold text-slate-800 dark:text-white">Contact Us</h2>
+            <div class="w-20 h-1 bg-amber-500 rounded-full mx-auto mt-4"></div>
+            <p class="mt-5 text-slate-600 dark:text-gray-300 max-w-2xl mx-auto">Have a question about our fragrances or need a recommendation? We'd love to help you find your perfect scent.</p>
+        </div>
+
+        <form class="space-y-5">
+            <div class="grid md:grid-cols-2 gap-5">
+              <input
+                  type="text" placeholder="Enter Your Name"
+                  class="w-full h-12 px-4 rounded-lg border border-gray-300 dark:border-zinc-600 bg-white dark:bg-zinc-800 text-slate-800 dark:text-white outline-none focus:ring-2 focus:ring-amber-500">
+              <input
+                  type="email" placeholder="Enter Your Email"
+                  class="w-full h-12 px-4 rounded-lg border border-gray-300 dark:border-zinc-600 bg-white dark:bg-zinc-800 text-slate-800 dark:text-white outline-none focus:ring-2 focus:ring-amber-500">
+            </div>
+
+            <textarea rows="5" placeholder="Enter Your Message"
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-zinc-600 bg-white dark:bg-zinc-800 text-slate-800 dark:text-white outline-none focus:ring-2 focus:ring-amber-500 resize-none"></textarea>
+            <button class="btn w-full py-3 md:w-auto px-8 cursor-pointer">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!--*               Footer               -->
+<footer class="relative overflow-hidden bg-zinc-900 dark:bg-black text-gray-400 mt-24">
+  <span class="absolute z-0 -bottom-10 -right-6 text-[10rem] md:text-[14rem] leading-none text-white/15 whitespace-nowrap">
+    Ambergris
+  </span>
+
+  <div class="container mx-auto px-8 py-8 relative z-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div class="lg:col-span-1">
+        <h2 class="text-3xl text-white mb-3">Ambergris</h2>
+        <p class="text-sm text-gray-500 mb-6 leading-6">Luxury fragrances crafted with passion, for every moment that matters.</p>
+        <form action="" class="flex">
+          <input type="email" placeholder="Enter Your email"
+            class="flex-1 min-w-0 bg-zinc-800 text-gray-200 placeholder-gray-500 text-sm px-4 h-11 border border-zinc-700 outline-none focus:border-amber-500 transition-colors duration-300">
+          <button class="h-11 px-4 bg-amber-500 hover:bg-amber-400 text-zinc-900 text-sm font-bold transition-colors duration-300 shrink-0 cursor-pointer">
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+      <div>
+        <h3 class="text-white font-bold mb-5 text-sm tracking-wide uppercase">Links</h3>
+        <ul class="space-y-3 text-sm">
+          <li><a href="#home" class="hover:text-amber-400 hover:pl-1 transition-all duration-300 inline-block">Home</a></li>
+          <li><a href="#about" class="hover:text-amber-400 hover:pl-1 transition-all duration-300 inline-block">About</a></li>
+          <li><a href="#Fragrances" class="hover:text-amber-400 hover:pl-1 transition-all duration-300 inline-block">Products</a></li>
+          <li><a href="#CustomerReviews" class="hover:text-amber-400 hover:pl-1 transition-all duration-300 inline-block">Testimony</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-bold mb-5 text-sm tracking-wide uppercase">Contact</h3>
+        <ul class="space-y-3 text-sm">
+          <li><a href="" class="hover:text-amber-400 hover:pl-1 transition-all duration-300 inline-block">FAQ</a></li>
+          <li><a href="" class="hover:text-amber-400 hover:pl-1 transition-all duration-300 inline-block">Blog</a></li>
+          <li><a href="#contact" class="hover:text-amber-400 hover:pl-1 transition-all duration-300 inline-block">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-bold mb-5 text-sm tracking-wide uppercase">Social</h3>
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4 text-amber-500">
+              <path d="M1.5 4.5A1.5 1.5 0 0 1 3 3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.5 1.5 0 0 1-.412 1.444l-1.005 1.005c-.198.198-.273.484-.158.733a11.07 11.07 0 0 0 5.706 5.706c.249.115.535.04.733-.158l1.005-1.005a1.5 1.5 0 0 1 1.444-.412l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a1.5 1.5 0 0 1-1.5 1.5h-1.5C9.665 21 3 14.335 3 6V4.5Z"/>
+            </svg>
+            <span>01012345678</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4 text-amber-500">
+              <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"/>
+              <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"/>
+            </svg>
+            <span>Ambergris@mail.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 pt-6 border-t border-zinc-700 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+      <div class="space-y-1 text-center sm:text-left">
+        <p>© 2026 Ambergris. All rights reserved.</p>
+        <p>Designed & Developed by
+          <a
+            href="https://www.linkedin.com/in/youssef-noaman-b21a4729b" target="_blank"
+            class="font-semibold text-amber-500 hover:text-amber-400 transition-colors duration-300 underline underline-offset-4"> Noaman
+          </a>
+        </p>
+      </div>
+      <div class="flex gap-6">
+        <a href="" class="hover:text-amber-400 transition-colors duration-300">Privacy Policy</a>
+        <a href="" class="hover:text-amber-400 transition-colors duration-300">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
